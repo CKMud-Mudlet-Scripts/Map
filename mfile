@@ -1,0 +1,8 @@
+{
+  "package": "CKMud-Map",
+  "version": "1.0.0",
+  "author": "fried",
+  "icon": "radar.png",
+  "title": "Map Capture Window",
+  "outputFile": true
+}

@@ -1,0 +1,22 @@
+[
+       {
+              "isActive": "yes",
+              "isFolder": "no",
+              "name": "map update",
+              "regex": "^map update$"
+       },
+       {
+              "isActive": "yes",
+              "isFolder": "no",
+              "name": "map show",
+              "regex": "^map show$",
+              "script": "fried.map.container:show()"
+       },
+       {
+              "isActive": "yes",
+              "isFolder": "no",
+              "name": "map hide",
+              "regex": "^map hide$",
+              "script": "fried.map.container:hide()"
+       }
+]

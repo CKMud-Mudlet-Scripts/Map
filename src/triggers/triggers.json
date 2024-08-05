@@ -1,0 +1,25 @@
+[
+       {
+              "name": "Capture Map",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "yes",
+              "multilineDelta": "1",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "o---------------------------------o",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "Obvious exits:",
+                            "type": "exactMatch"
+                     }
+              ]
+       }
+]
