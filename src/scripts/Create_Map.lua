@@ -1,5 +1,5 @@
-fried = fried or {}
-fried.map = fried.map or {}
+local fried = require("__PKGNAME__.fried")
+local map = fried:get_table("map")
 
 local function create_container()
   local default_constraints =
@@ -36,9 +36,9 @@ local function create_console()
     fontSize = 10,
     width = "100%",
     height = "99%",
-  }, fried.map.container)
+  }, map.container)
   return console
 end
 
-fried.map.container = fried.map.container or create_container()
-fried.map.console = fried.map.console or create_console()
+map.container = map.container or create_container()
+map.console = map.console or create_console()

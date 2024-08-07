@@ -1,4 +1,7 @@
-local console = fried.map.console
+local fried = require("__PKGNAME__.fried")
+local map = fried:get_table("map")
+
+local console = fried:get_table("map").console
 
 console:clear()
 moveCursor(0, getLineNumber() - 17)
