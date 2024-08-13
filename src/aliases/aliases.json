@@ -11,13 +11,13 @@
               "isFolder": "no",
               "name": "ckmap show",
               "regex": "^ckmap show$",
-              "script": "require('__PKGNAME__.fried'):get_table('map').container:show()"
+              "script": "FRIED.map.container:show()"
        },
        {
               "isActive": "yes",
               "isFolder": "no",
               "name": "ckmap hide",
               "regex": "^ckmap hide$",
-              "script": "require('__PKGNAME__.fried'):get_table('map').container:hide()"
+              "script": "FRIED.map.container:hide()"
        }
 ]
