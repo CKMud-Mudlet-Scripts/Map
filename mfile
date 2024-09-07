@@ -1,6 +1,6 @@
 {
-  "package": "CKMud-Map",
-  "version": "1.1.0",
+  "package": "CK-Map",
+  "version": "24.09.06",
   "author": "fried",
   "icon": "radar.png",
   "title": "Map Capture Window",

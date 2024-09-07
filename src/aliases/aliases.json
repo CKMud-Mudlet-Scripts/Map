@@ -2,22 +2,15 @@
        {
               "isActive": "yes",
               "isFolder": "no",
-              "name": "ckmap update",
-              "regex": "^ckmap update$",
-              "script": "uninstallPackage('__PKGNAME__') installPackage('https://github.com/CKMud-Mudlet-Scripts/Map/releases/latest/download/CKMud-Map.mpackage')"
+              "name": "CK map show",
+              "regex": "^CK map show$",
+              "script": "CK.map.container:show()"
        },
        {
               "isActive": "yes",
               "isFolder": "no",
-              "name": "ckmap show",
-              "regex": "^ckmap show$",
-              "script": "FRIED.map.container:show()"
-       },
-       {
-              "isActive": "yes",
-              "isFolder": "no",
-              "name": "ckmap hide",
-              "regex": "^ckmap hide$",
-              "script": "FRIED.map.container:hide()"
+              "name": "CK map hide",
+              "regex": "^CK map hide$",
+              "script": "CK.map.container:hide()"
        }
 ]

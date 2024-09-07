@@ -1,5 +1,6 @@
-local fried = require("__PKGNAME__.fried")
-local map = fried:get_table("map")
+local ck = require("CK")
+ck:register("__PKGNAME__", "__VERSION__")
+local map = ck:get_table("map")
 
 local function create_container()
   local default_constraints =

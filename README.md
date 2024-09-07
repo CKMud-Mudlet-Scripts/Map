@@ -1,4 +1,4 @@
-# CKMud-Map
+# CK-Map
 
 ## Map Capture Window
 
@@ -6,9 +6,11 @@ Always have a map visible.
 
 ## Installation
 
-`lua installPackage("https://github.com/CKMud-Mudlet-Scripts/Map/releases/latest/download/CKMud-Map.mpackage")`
+To install CK-Map, have the CK package installed and run
 
-after installing you can use `ckmap update` to install the latest version
+`CK pkg install map`
+
+`CK pkg update map`
 
 ## Usage
 
@@ -16,9 +18,7 @@ Once installed a window will popup containing the last displayed map
 
 ### Aliases
 
-* `ckmap show`
+* `CK map show`
   * If you close the Map window this will show it
-* `ckmap hide`
+* `CK map hide`
   * hide the map
-* `ckmap update`
-  * Download latest from github

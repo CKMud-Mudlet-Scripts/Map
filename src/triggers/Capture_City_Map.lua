@@ -1,4 +1,4 @@
-local map = FRIED.map
+local map = CK.map
 local console = map.console
 local container = map.container
 
