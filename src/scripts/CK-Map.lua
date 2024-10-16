@@ -6,10 +6,10 @@ local function create_container()
   local default_constraints =
     {
       name = "MapContainer",
-      x = "75.78%",
-      y = "25.41%",
-      width = "23.5%",
-      height = "24.15%",
+      x = "60%",
+      y = "0%",
+      width = "40%",
+      height = "50%",
       titleText = "Map",
     }
   local adjLabelStyle =
@@ -34,7 +34,7 @@ local function create_console()
         autoWrap = false,
         color = "black",
         scrollBar = false,
-        fontSize = 10,
+        fontSize = 16,
         width = "100%",
         height = "99%",
       },
