@@ -4,5 +4,6 @@
   "author": "fried",
   "icon": "radar.png",
   "title": "Map Capture Window",
+  "dependencies": "CK",
   "outputFile": true
 }
