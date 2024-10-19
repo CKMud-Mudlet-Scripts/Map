@@ -15,7 +15,7 @@ end
 moveCursor(0, getLineNumber() + 1)
 console:echo("\n\n")
 for i = 1, 11, 1 do
-  --moveCursor(0, getLineNumber() + 1)
+  -- Copy line to map
   selectCurrentLine()
   copy()
   console:appendBuffer()

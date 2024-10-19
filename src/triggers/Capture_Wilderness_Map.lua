@@ -12,7 +12,10 @@ end
 moveCursor(0, getLineNumber() + 1)
 console:echo("\n\n")
 for i = 1, 11, 1 do
-    --moveCursor(0, getLineNumber() + 1)
+    -- Remove some spaces
+    selectSection(0, 2)
+    replace()
+    -- Lets copy the line into the map
     selectCurrentLine()
     copy()
     console:appendBuffer()
