@@ -12,7 +12,7 @@
                             "pattern": "Obvious exits:",
                             "type": "exactMatch"
                      }
-              ],
+              ]
        },
        {
               "name": "Capture Wilderness Map",
@@ -27,6 +27,6 @@
                             "pattern": "Obvious exits:",
                             "type": "exactMatch"
                      }
-              ],
+              ]
        }
 ]

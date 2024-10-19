@@ -2,19 +2,29 @@ local map = CK.map
 local console = map.console
 local container = map.container
 
+local map = CK.map
+local console = map.console
+local container = map.container
 console:clear()
-moveCursor(0, getLineNumber() - 18)
-for i = 0, 16, 1 do
-    moveCursor(0, getLineNumber() + 1)
-    selectCurrentLine()
-    copy()
-    console:appendBuffer()
-    deselect()
+moveCursor(0, getLineNumber() - 13)
+if not container.hidden then
+  selectCurrentLine()
+  replace("[[ See Map Window ]]")
+  deselect()
 end
-
-if not CK.map.container.hidden then
-    moveCursor(0, getLineNumber() - 12)
-    for i = 0, 11, 1 do
-        gagLine()
-    end
+moveCursor(0, getLineNumber() + 1)
+console:echo("\n\n")
+for i = 1, 11, 1 do
+  --moveCursor(0, getLineNumber() + 1)
+  selectCurrentLine()
+  copy()
+  console:appendBuffer()
+  deselect()
+  if container.hidden then
+    moveCursorDown()
+  else
+    gagLine()
+  end
 end
+gagLine()
+raiseEvent("CK.chat:narrow-draw")

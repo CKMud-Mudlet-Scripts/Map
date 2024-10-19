@@ -25,7 +25,7 @@ local function create_container()
 end
 
 local function create_console()
-  console =
+  local console =
     Geyser.MiniConsole:new(
       {
         name = "MapConsole",
