@@ -12,6 +12,11 @@ end
 moveCursor(0, getLineNumber() + 1)
 console:echo("\n\n")
 for i = 1, 11, 1 do
+    local word = getCurrentLine():split()[1]
+    if word ~= "" and spellCheckWord(word) then
+      -- This is not a map
+      return
+    end
     -- Remove some spaces
     selectSection(0, 2)
     replace()
