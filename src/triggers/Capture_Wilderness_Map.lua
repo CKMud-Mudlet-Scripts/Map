@@ -4,7 +4,7 @@ local container = map.container
 
 console:clear()
 moveCursor(0, getLineNumber() - 13)
-if not container.hidden then
+if not container.hidden and map:see_map_window() then
     selectCurrentLine()
     replace("[[ See Map Window ]]")
     deselect()
